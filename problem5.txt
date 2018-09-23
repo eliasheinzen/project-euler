@@ -1,0 +1,18 @@
+# Smallest multiple
+# 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+# What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+Divisibility Rules
+
+1 - Any integer (not a fraction) is divisible by 1
+2 - The last digit is even (0,2,4,6,8)
+3 - The sum of the digits is divisible by 3
+4 - The last 2 digits are divisible by 4
+5 - The last digit is 0 or 5
+6 - Is even and is divisible by 3 (it passes both the 2 rule and 3 rule above)
+7 - Double the last digit and subtract it from a number made by the other digits. The result must be divisible by 7. (We can apply this rule to that answer again)
+8 - The last three digits are divisible by 8
+9 - The sum of the digits is divisible by 9
+10 - The number ends in 0
+11 - Add and subtract digits in an alternating pattern (add digit, subtract next digit, add next digit, etc). Then check if that answer is divisible by 11.
+12 - The number is divisible by both 3 and 4 (it passes both the 3 rule and 4 rule above)
