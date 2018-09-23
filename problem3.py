@@ -14,6 +14,7 @@ def is_prime(x):
             if x % n == 0:
                 return False
         return True
+        # return len([n for n in range(2, x) if x % n == 0]) == 0
 
 
 for i in range(3, 10000, 2):
