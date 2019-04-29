@@ -17,6 +17,7 @@ def is_prime(x):
         # return len([n for n in range(2, x) if x % n == 0]) == 0
 
 
-for i in range(3, 10000, 2):
-    if is_prime(i) and 600851475143 % i == 0:
-        print(i)
+if __name__ == '__main__':
+    for i in range(3, 10000, 2):
+        if is_prime(i) and 600851475143 % i == 0:
+            print(i)
