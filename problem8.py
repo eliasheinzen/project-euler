@@ -26,7 +26,6 @@ n = '731671765313306249192251196744265747423553491949349698352031277450632623957
 maior_produto, produto = 1, 1
 
 for i in range(0, len(n) - 12):
-    msg = ''
     for j in range(i, i + 13):
         produto = produto * int(n[j])
     if produto > maior_produto:
