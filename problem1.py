@@ -8,4 +8,3 @@ for i in range(1, 1000):
         count += 1
         x += i
 print(count, 'números somados, total:', x)
-
